@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Test / coverage / lint
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Env / venv
+.env
+.venv
+venv/
+
+# Editor / IDE / OS
+.idea/
+.vscode/
+.DS_Store
+.metadata_never_index
+
+# Agent local state
+.claude/
+.mcp.json
+.jj/
+
+# Market data (regeneratable via API)
+data/
+
+# Generated docs
+docs/superpowers/
